@@ -1,12 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
+
+
 
 /**
 
-* main -entry point
+ * main - Entry point
 
-* Return: Always 0 (sucess)
+ *
 
-*/
+ * Return: Always 0 (Success)
+
+ */
 
 int main(void)
 
