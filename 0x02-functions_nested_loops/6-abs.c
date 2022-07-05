@@ -1,28 +1,12 @@
 #include "main.h"
 
 /**
- * print_sign - check numers
+ * _abs - return abs value
  * @n : number to check
  * Return:0 or 1
  */
-int print_sign(int n)
-{
-	int test;
+int _abs(int n)
 
-	if (n > 0)
-	{
-		test = 1;
-		_putchar('+');
-	}
-	else if (n == 0)
-	{
-		test = 0;
-		_putchar('0');
-	}
-	else
-	{
-		test = -1;
-		_putchar('-');
-	}
-	return (test);
+{
+	return (n >= 0 ? n : n * -1);
 }
