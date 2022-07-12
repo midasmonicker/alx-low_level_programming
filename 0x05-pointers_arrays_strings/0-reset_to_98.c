@@ -5,7 +5,6 @@
  * @n: pointer
  * Return: Always 0
  */
-
 void return_to_98(int *n)
 {
 	*n = 98;
