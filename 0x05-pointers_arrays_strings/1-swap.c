@@ -13,6 +13,6 @@ void swap_int(int *a, int *b)
 	x = *a;
 	*a = *b;
 	*b = x;
-	return (0);
+	return;
 }
 
