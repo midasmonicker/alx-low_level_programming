@@ -1,5 +1,12 @@
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef DOG
+#define DOG
+
+/**
+ * struct dog - structure for a dog object
+ * @name: element for name
+ * @owner: element for owner
+ * @age: element for age
+ */
 
 struct dog
 {
@@ -7,3 +14,4 @@ struct dog
 	char *owner;
 	float age;
 };
+#endif
