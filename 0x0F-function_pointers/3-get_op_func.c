@@ -8,7 +8,7 @@
  * Return: return the function and operator when equal
  */
 
-int (*get_op_fuc(char *s))(int, int)
+int (*get_op_func(char *s))(int a, int b)
 {
 	op_t ops[] = {
 		{"+", op_add},
@@ -23,7 +23,7 @@ int (*get_op_fuc(char *s))(int, int)
 
 	while (ops[i].op != NULL)
 	{
-		if (!strcmp(ops[i].op,s))
+		if (*s == * ops[i].op)
 			return (ops[i].f);
 		i++;
 	}
