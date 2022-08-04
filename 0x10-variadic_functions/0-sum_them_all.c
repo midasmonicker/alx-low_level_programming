@@ -4,6 +4,7 @@
 /**
  * sum_them_all - adds each argument
  * @n: argument to be added
+ * @...: remaining variables to be passed to function
  *
  * Return: sum of the arguments
  */
