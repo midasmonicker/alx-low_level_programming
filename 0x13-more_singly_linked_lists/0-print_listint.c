@@ -4,9 +4,9 @@
 
 /**
  * print_listing - prints all elements in listint_t
- * @h: pointer to each node
+ * @h: pointer to the linked list
  *
- * Return: 0
+ * Return: The number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
