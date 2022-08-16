@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_listing - prints all elements in listint_t
+ * print_listint - prints all elements in listint_t
  * @h: pointer to the linked list
  *
  * Return: The number of nodes
